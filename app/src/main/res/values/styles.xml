@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light"/>
+
+    <style name="AppTheme.Dialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+</resources>
