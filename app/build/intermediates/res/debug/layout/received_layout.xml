@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/transparent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/received_contact_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/person"/>
+
+        <TextView
+            android:id="@+id/received_sender_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sender_placeholder"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/received_close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:shadowColor="@android:color/transparent"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="closeClicked"
+            android:text="@string/close"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/received_message_body_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/message_placeholder" />
+
+    <EditText
+        android:id="@+id/response_body_et"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/received_later_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:shadowColor="@android:color/transparent"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="laterClicked"
+            android:text="@string/later"/>
+
+        <Button
+            android:id="@+id/received_call_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:shadowColor="@android:color/transparent"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="callClicked"
+            android:text="@string/call"/>
+
+        <Button
+            android:id="@+id/received_open_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:shadowColor="@android:color/transparent"
+            style="?android:attr/borderlessButtonStyle"
+            android:onClick="openClicked"
+            android:text="@string/open"/>
+
+        <Button
+            android:id="@+id/received_reply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:onClick="replyClicked"
+            android:text="@string/reply"/>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/src/main/res/layout/received_layout.xml -->

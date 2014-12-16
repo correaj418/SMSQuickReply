@@ -1,0 +1,5 @@
+/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/classes/debug
+/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-e120232c9e5a7b49cbbe2746935f19314b8d858e.jar
+/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-88bca3c7ee6cd1fa674814922440df8dac907fb7.jar
+/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/pre-dexed/debug/classes-135755a66f4fcb477f1f2509c0508c3bb8d5e597.jar
+/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/pre-dexed/debug/classes-cdee0fddb63aeb17727d936c2ada74ccb61bf327.jar
