@@ -11,5 +11,6 @@
     <string name="message_placeholder">Good morning!</string>
     <string name="close">Close</string>
     <string name="sender_placeholder">Danielle</string>
+    <string name="response_placeholder">Response message</string>
 
 </resources>
