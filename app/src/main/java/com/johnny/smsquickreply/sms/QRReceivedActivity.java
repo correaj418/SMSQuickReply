@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
@@ -35,6 +36,12 @@ public class QRReceivedActivity extends Activity implements OnTouchListener
     private Button obOpenButton;
     private Button obReplyButton;
 
+    private View obDecorView;
+
+    //View view = getWindow().getDecorView();
+
+    WindowManager.LayoutParams lp;
+
     @Override
     public void onCreate(Bundle arSavedInstanceState)
     {
@@ -50,6 +57,35 @@ public class QRReceivedActivity extends Activity implements OnTouchListener
         setContentView(R.layout.received_layout);
 
         init(getIntent().getExtras());
+    }
+
+    @Override
+    public void onAttachedToWindow()
+    {
+        super.onAttachedToWindow();
+
+        obDecorView = getWindow().getDecorView();
+
+        lp = (WindowManager.LayoutParams) obDecorView.getLayoutParams();
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event)
+    {
+
+        if (event.getAction() == MotionEvent.ACTION_MOVE)
+        {
+            //View view = getWindow().getDecorView();
+            //
+            //WindowManager.LayoutParams lp = (WindowManager.LayoutParams) view.getLayoutParams();
+            lp.gravity = Gravity.LEFT | Gravity.TOP;
+            lp.x = (int) event.getX();
+            lp.y = (int) event.getY();
+            getWindowManager().updateViewLayout(obDecorView, lp);
+        }
+
+        return super.onTouchEvent(event);
+
     }
 
     private void init(Bundle arBundle)

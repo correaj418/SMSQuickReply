@@ -1,5 +1,5 @@
-/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/classes/debug
-/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-e120232c9e5a7b49cbbe2746935f19314b8d858e.jar
-/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-88bca3c7ee6cd1fa674814922440df8dac907fb7.jar
-/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/pre-dexed/debug/classes-135755a66f4fcb477f1f2509c0508c3bb8d5e597.jar
-/Users/Johnny/Documents/AndroidStudio/SMSQuickReply/app/build/intermediates/pre-dexed/debug/classes-cdee0fddb63aeb17727d936c2ada74ccb61bf327.jar
+/Users/jcorrea/Documents/as_temp_projects/SMSQuickReply/app/build/intermediates/classes/debug
+/Users/jcorrea/Documents/as_temp_projects/SMSQuickReply/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-c7c171532535ed47feda01937d3b8e677b3ea32d.jar
+/Users/jcorrea/Documents/as_temp_projects/SMSQuickReply/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-1ed100ef94bc7d2ac7e646eec3b37a392d163909.jar
+/Users/jcorrea/Documents/as_temp_projects/SMSQuickReply/app/build/intermediates/pre-dexed/debug/classes-3d26ca80604d35a5b1ed30486649abae13272e53.jar
+/Users/jcorrea/Documents/as_temp_projects/SMSQuickReply/app/build/intermediates/pre-dexed/debug/classes-a0b05ac552d4ddac11e6692a363e0520ce7ecf10.jar
